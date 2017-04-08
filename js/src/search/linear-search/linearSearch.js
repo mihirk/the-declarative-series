@@ -1,0 +1,1 @@
+module.exports = (collection, elementToFind) => collection.indexOf(elementToFind);

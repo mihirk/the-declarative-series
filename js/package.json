@@ -1,0 +1,30 @@
+{
+  "name": "the-declarative-series",
+  "version": "1.0.0",
+  "description": "The Declarative Series",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha $(find ./test -name '*test.js')"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mihirk/the-declarative-series.git"
+  },
+  "keywords": [
+    "algorithms",
+    "declarative"
+  ],
+  "author": "Mihir Khatwani",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/mihirk/the-declarative-series/issues"
+  },
+  "homepage": "https://github.com/mihirk/the-declarative-series#readme"
+}
